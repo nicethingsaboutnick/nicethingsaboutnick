@@ -1,0 +1,57 @@
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.refresh {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.quote {
+  font-size: 5rem;
+  margin: 0.6em 0;
+}
+
+.name {
+  color: #AAAAAA;
+}
+
+.refresh {
+  appearance: none;
+  border: none;
+  margin: 0;
+  padding: 10px 20px;
+  color: #FFFFFF;
+  background: #8DC63F;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.refresh:focus, .refresh:hover, .refresh:active {
+  outline: none;
+}
+
+.refresh:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
