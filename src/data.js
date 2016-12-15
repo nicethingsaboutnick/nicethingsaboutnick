@@ -17,7 +17,7 @@ const data = [
 	},
 	{
 		name: "Vivien",
-		quote: "Boring, impolite, unstylish, serious, mean, unkind, stinky, stupid, vey small, slow IS NOT Nick"
+		quote: "Boring, impolite, unstylish, serious, mean, unkind, stinky, stupid, very small, slow IS NOT Nick"
 	},
 	{
 		name: "Jon",
