@@ -66,11 +66,24 @@ class App extends Component {
 
   render() {
     const { quote, name } = this.state.current;
+    let fontSize = '4rem';
+
+    if(quote.length >= 100) {
+      fontSize = '3.2rem';
+    }
+
+    if(quote.length >= 200) {
+      fontSize = '2.8rem';
+    }
+
+    if(quote.length >= 400) {
+      fontSize = '2.2rem';
+    }
 
     return (
       <div className="App">
         <div className="content">
-          <p className="quote">“{quote}”</p>
+          <p className="quote" style={{ fontSize: fontSize }} >“{quote}”</p>
           <p className="name">- {name} -</p>
         </div>
         <button 
