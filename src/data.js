@@ -98,6 +98,10 @@ const data = [
 	{
 		name: "Pete",
 		quote: "The admiral of aioli"
+	},
+	{
+		name: "Klara",
+		quote: "Nick’s always up for a beer or two"
 	}
 ];
 
